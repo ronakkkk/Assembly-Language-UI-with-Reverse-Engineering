@@ -21,8 +21,11 @@ The output of the above class is as shown as below: (as code is of 16 bit dosbox
 4. The output is stored in the txt file as follows:
 
 Ronak Code
+
 16/03/1998
+
 123456789
+
 tpqt
 
 -> where tpqt is encrypted password.
@@ -38,6 +41,9 @@ B. Reverse Engineering EXE file of the given assembly code using IDA Pro:
 The txt file output is:
 
 Ronak Code
+
 16/03/1998
+
 root
+
 Your information has been leaked!
