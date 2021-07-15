@@ -1,7 +1,8 @@
 # Assembly-Language-UI-with-Reverse-Engineering
 
 A. Assembly Code:
-      In the given program a user interface is built using assembly language 16 bit code. It asked for user id &amp; password, if its correct then it will ask for user     information which is stored in a file with encrypted password.
+
+In the given program a user interface is built using assembly language 16 bit code. It asked for user id &amp; password, if its correct then it will ask for user information which is stored in a file with encrypted password.
 
 The output of the above class is as shown as below: (as code is of 16 bit dosbox is preferred to run)
 
@@ -25,3 +26,18 @@ Ronak Code
 tpqt
 
 -> where tpqt is encrypted password.
+
+B. Reverse Engineering EXE file of the given assembly code using IDA Pro:
+
+1. After reverse engineering the id and password is bypass with any of the key enter and the encryption of the password is bypass and stored with original password and even at below of the text file a warning msg is displayed.
+
+2. After using IDA Pro, the exe file would run as following images:
+
+![image](https://user-images.githubusercontent.com/37010825/125785725-682c08aa-ba52-4e93-ae2d-c709718adee3.png)
+
+The txt file output is:
+
+Ronak Code
+16/03/1998
+root
+Your information has been leaked!
